@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from scipy import stats
 
-# 0. "ir-data.csv"からデータを読み込む
-df = pd.read_csv("ir-data.csv")
+# 0. "../../datasets/001.csv"からデータを読み込む
+df = pd.read_csv("../../datasets/001.csv")
 
 # 1-1. 各学部の学生数と成績平均を集計
 department_stats = df.groupby('所属学部').agg(
