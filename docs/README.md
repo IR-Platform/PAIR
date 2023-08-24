@@ -29,7 +29,7 @@
 - [advanced.md](/advanced.md): 上級者向けのガイドライン
 
 ## ライセンス
-- [LICENSE](LICENSE.md): ソースコードやデータのライセンス情報。
+- [LICENSE](/LICENSE.md): ソースコードやデータのライセンス情報。
 
 Copyright (c) Platform for the Art of Institutional Research 2023
 
@@ -37,7 +37,7 @@ Copyright (c) Platform for the Art of Institutional Research 2023
 
 このリポジトリに含まれる全ての著作物 (サンプルデータ、解説文章、pptxファイルを含む図などの画像およびサンプルコード等) は[クリエイティブ・コモンズ表示 4.0 国際ライセンス][cc-by/ja]の下に提供されています。
 
-All the content including sample data, documents, pictures and sample codes within this repositoty is licensed under a [Creative Commons Arrtibution 4.0 International License][cc-by].
+All the content including sample data, documents, pictures and sample codes within this repository is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
 
 [cc-by-png]: https://licensebuttons.net/l/by/4.0/88x31.png "CC BY 4.0 license button"
