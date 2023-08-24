@@ -29,7 +29,7 @@
 - [advanced.md](/advanced.md): 上級者向けのガイドライン
 
 ## ライセンス
-- [LICENSE](/LICENSE): ソースコードやデータのライセンス情報。
+- [LICENSE](LICENSE.md): ソースコードやデータのライセンス情報。
 
 Copyright (c) Platform for the Art of Institutional Research 2023
 
