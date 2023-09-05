@@ -13,6 +13,8 @@ attendance_days = []
 class_participation = []
 economic_background = ['低', '中', '高']
 dropout_risk = []
+starting_salary = []
+industry = ['IT', '教育', '製造', '金融', '小売']
 
 # 偏りが出るようにデータを生成
 for _ in range(n_rows):
@@ -23,21 +25,29 @@ for _ in range(n_rows):
         attendance_days.append(random.randint(30, 40))
         class_participation.append(random.randint(4, 9))
         dropout_risk.append('低')
+        starting_salary.append(random.randint(2800000, 3200000))
+        industry.append('IT')
     elif dept == '文':
         test_scores.append(random.randint(50, 90))
         attendance_days.append(random.randint(35, 40))
         class_participation.append(random.randint(5, 8))
         dropout_risk.append('中')
+        starting_salary.append(random.randint(2400000, 2600000))
+        industry.append('教育')
     elif dept == '工':
         test_scores.append(random.randint(70, 95))
         attendance_days.append(random.randint(33, 38))
         class_participation.append(random.randint(6, 9))
         dropout_risk.append('高')
+        starting_salary.append(random.randint(3900000, 4100000))
+        industry.append('製造')
     else:  # 経済
         test_scores.append(random.randint(80, 100))
         attendance_days.append(random.randint(38, 42))
         class_participation.append(random.randint(7, 10))
         dropout_risk.append('低')
+        starting_salary.append(random.randint(4400000, 4600000))
+        industry.append('金融')
 
     departments.append(dept)
 
@@ -49,8 +59,10 @@ df = pd.DataFrame({
     '出席日数': attendance_days,
     'クラス参加度': class_participation,
     '経済的背景': [random.choice(economic_background) for _ in range(n_rows)],
-    '退学リスク': dropout_risk
+    '退学リスク': dropout_risk,
+    '初任給': starting_salary,
+    '業界': industry[:n_rows]
 })
 
 # CSVファイルとして保存
-df.to_csv("../../datasets/100.csv", index=False, encoding='utf-8')
+df.to_csv("../../datasets/201.csv", index=False, encoding='utf-8')
