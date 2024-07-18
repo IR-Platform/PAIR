@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.1012.1128                               -->
+<workbook original-version='18.1' source-build='2023.2.3 (20232.23.1012.1128)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='MJIR2023-002出力 抽出' inline='true' name='federated.19365711ugi7ou130lnao1faj95g' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='MJIR2023-002出力' name='hyper.1ge6yul0af7m8g1a3tmdi0xugas3'>
+            <connection authentication='auth-none' author-locale='ja_JP' class='hyper' dbname='/Users/yoshikazuasada/Documents/マイ Tableau Prep リポジトリ/データ ソース/MJIR2023-002出力.hyper' default-settings='yes' server='' sslmode='' username='tableau_internal_user' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hyper.1ge6yul0af7m8g1a3tmdi0xugas3' name='Extract' table='[Extract].[Extract]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='hyper.1ge6yul0af7m8g1a3tmdi0xugas3' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>計算1-1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[計算1-1]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>計算1-1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Score]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Score</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>43</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subject-1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subject-1]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Subject-1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Grade]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Grade</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>5</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subject</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subject]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Subject</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>計算1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[計算1]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>計算1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>50</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>41</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Score (ビン)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[Score]' peg='0' size='4.47' />
+      </column>
+      <column datatype='integer' name='[Score]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;日本&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_8128151C788149D5942B2E78BF1C229B'>
+            <properties context=''>
+              <relation connection='hyper.1ge6yul0af7m8g1a3tmdi0xugas3' name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='シート 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MJIR2023-002出力 抽出' name='federated.19365711ugi7ou130lnao1faj95g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19365711ugi7ou130lnao1faj95g'>
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Score (ビン)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Score]' peg='0' size='4.47' />
+            </column>
+            <column datatype='integer' name='[Score]' role='measure' type='quantitative' />
+            <column-instance column='[Score]' derivation='Count' name='[cnt:Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Department]' derivation='None' name='[none:Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Score (ビン)]' derivation='None' name='[none:Score (ビン):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[計算1-1]' derivation='None' name='[none:計算1-1:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[計算1-1]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19365711ugi7ou130lnao1faj95g].[none:計算1-1:nk]'>
+            <groupfilter function='level-members' level='[none:計算1-1:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.19365711ugi7ou130lnao1faj95g].[none:計算1-1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.19365711ugi7ou130lnao1faj95g].[none:Department:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.19365711ugi7ou130lnao1faj95g].[cnt:Score:qk]</rows>
+        <cols>[federated.19365711ugi7ou130lnao1faj95g].[none:Score (ビン):qk]</cols>
+        <show-full-range>
+          <column>[federated.19365711ugi7ou130lnao1faj95g].[Score (ビン)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{5D1DDC58-3E6B-4B24-B4CA-38157F3B3DC6}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='シート 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.19365711ugi7ou130lnao1faj95g].[none:計算1-1:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.19365711ugi7ou130lnao1faj95g].[none:Department:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19365711ugi7ou130lnao1faj95g].[none:Department:nk]</field>
+            <field>[federated.19365711ugi7ou130lnao1faj95g].[none:計算1-1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DF169C3D-2842-4B60-935F-3C28F0F67FEE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='シート 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

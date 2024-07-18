@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='出力 抽出' inline='true' name='federated.0fe6d4h0ss592u17fl29e1ksx6bk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='出力' name='hyper.0llevzq11fpirb1em8hrj1pxmnwq'>
+            <connection authentication='auth-none' author-locale='ja_JP' class='hyper' dbname='/Users/yoshikazuasada/Documents/マイ Tableau Prep リポジトリ/データ ソース/出力.hyper' default-settings='yes' server='' sslmode='' username='tableau_internal_user' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hyper.0llevzq11fpirb1em8hrj1pxmnwq' name='Extract' table='[Extract].[Extract]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='hyper.0llevzq11fpirb1em8hrj1pxmnwq' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>素点</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[素点]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>素点</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>47</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>科目</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[科目]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>科目</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>学生ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[学生ID]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>学生ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>300</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>氏名</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[氏名]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>氏名</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>272</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>性別</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[性別]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>性別</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>所属学部</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[所属学部]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>所属学部</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>3</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E]' role='measure' type='quantitative' />
+      <column caption='学生id' datatype='integer' name='[学生ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[科目]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[素点 (ビン)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[素点]' peg='0' size='4.31' />
+      </column>
+      <column datatype='integer' name='[素点]' role='measure' type='quantitative' />
+      <column-instance column='[科目]' derivation='None' name='[none:科目:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:科目:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;英語&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;数学&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;情報リテラシー&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;日本&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_1D727DC90D12419CB928E7C709AB2E2E'>
+            <properties context=''>
+              <relation connection='hyper.0llevzq11fpirb1em8hrj1pxmnwq' name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='シート 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='出力 抽出' name='federated.0fe6d4h0ss592u17fl29e1ksx6bk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0fe6d4h0ss592u17fl29e1ksx6bk'>
+            <column-instance column='[素点]' derivation='Count' name='[cnt:素点:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[所属学部]' derivation='None' name='[none:所属学部:nk]' pivot='key' type='nominal' />
+            <column-instance column='[科目]' derivation='None' name='[none:科目:nk]' pivot='key' type='nominal' />
+            <column-instance column='[素点 (ビン)]' derivation='None' name='[none:素点 (ビン):qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[所属学部]' role='dimension' type='nominal' />
+            <column datatype='string' name='[科目]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[素点 (ビン)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[素点]' peg='0' size='4.31' />
+            </column>
+            <column datatype='integer' name='[素点]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:所属学部:nk]'>
+            <groupfilter function='level-members' level='[none:所属学部:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:所属学部:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:科目:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[cnt:素点:qk]</rows>
+        <cols>[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:素点 (ビン):qk]</cols>
+        <show-full-range>
+          <column>[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[素点 (ビン)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{E54ACCDD-2FED-4587-B365-3E708EBCC76F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='シート 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:所属学部:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:科目:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:学生ID:ok]</field>
+            <field>[federated.0fe6d4h0ss592u17fl29e1ksx6bk].[none:科目:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FBDA4A79-67BF-4713-AB72-248AEE868CF6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='シート 1' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
