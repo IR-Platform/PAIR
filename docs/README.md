@@ -4,6 +4,9 @@
 サンプルデータはChatGPTなどで生成した合成データを配布します。
 また、データや各言語でのプログラムコードを記述することで、プロジェクトに貢献することもできます。
 
+## プロジェクトのウェブサイト
+[当該プロジェクト（PAIR）に関する総合的な案内をするためのウェブサイト](https://halved-honeycup-3ac.notion.site/PAIR-Platform-of-the-Art-of-Institutional-Research-ff0b189bdceb4ddd824f27989f13a86f)を用意しました。
+
 ## プロジェクトの構成
 
 本プロジェクトには、いくつかのファイルがあります。
